@@ -8,6 +8,6 @@ for action in A:
     if tank < min_req:
         min_req = tank # Store the lowest tank level
 X = -min_req  # Initial oil needed 
-print(X)
+print(X)#print result
 
 
