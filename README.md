@@ -8,20 +8,24 @@ This repository contains Python solutions to coding problems, organized by diffi
 * `easy/` — Basic problems using loops, conditions, and lists.  
   Includes:
 
-1.  Get a string as input, check if it's palindrome or not, without using string handling functions.  
-[Answer](easy/fizzbuzz.py)
+1.  Write a program that prints the numbers from 1 to 100.
+ But for multiples of 3, print "Fizz" instead of the number.
+ For multiples of 5, print "Buzz" instead of the number.
+ For numbers which are multiples of both 3 and 5, print "FizzBuzz"
 
-2.  You’re given an array A of n integers and q queries. Each query can be one of the following two types:  
+    [Answer](easy/fizzbuzz.py)
+
+3.  You’re given an array A of n integers and q queries. Each query can be one of the following two types:  
 Type 1 Query: (1, l, r) - Replace A[i] with (i-l+1)*A[l] for each index i, where l <= i <= r.  
 Type 2 Query: (2, l, r) - Calculate the sum of the elements in A from index l to r.  
 Find the sum of answers to all type 2 queries. Since answer can be large, return it modulo 10^9+7.  
 [Answer](easy/p1.py)
 
-3.  You are given an array A of length N and an integer k. It is given that a subarray from l to r is considered good, if the number of distinct elements in that subarray doesn’t exceed k.  Additionally, an empty subarray is also a good subarray and its sum is considered to be zero.  
+4.  You are given an array A of length N and an integer k. It is given that a subarray from l to r is considered good, if the number of distinct elements in that subarray doesn’t exceed k.  Additionally, an empty subarray is also a good subarray and its sum is considered to be zero.  
 Find the maximum sum of a good subarray.  
 [Answer](easy/p2.py)
 
-4.  You have an oil tank with a capacity of C litres that can be bought and sold by N people.  
+5.  You have an oil tank with a capacity of C litres that can be bought and sold by N people.  
 The people standing in a queue are served sequentially in the order of array A.  
 Some of them want to sell a litre of oil and some of them want to buy a litre of oil and A describes this.  
 Here, A[i] = 1 denotes that the person wants to sell a litre of oil and A[i] = -1 denotes that the person wants to buy a litre of oil.  
