@@ -7,7 +7,7 @@ This repository contains Python solutions to coding problems, organized by diffi
 
 * `easy/` — Basic problems using loops, conditions, and lists.
   Includes:
-  `fizzbuzz.py` → Simple game logic
+     * `fizzbuzz.py` → Simple game logic
   `p1.py` → Range update and sum queries
   `p2.py` → Max subarray sum with k unique values
 
