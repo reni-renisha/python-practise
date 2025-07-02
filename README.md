@@ -1,7 +1,7 @@
 
 ## 🐍 Python Practice Problems
 
-This repository contains Python solutions to coding problems, organized by difficulty level to support step-by-step learning.
+This repository contains Python solutions to coding problems, organized by difficulty level to support step-by-step learning & the questions named lc are from leetcode.
 
 ### 🗂️ Folder Overview
 
@@ -35,6 +35,10 @@ Both these cases cause disturbances.
 You can minimize the disturbance by filling the tank initially with a certain X litres of oil.  
 Find the minimum initial amount of oil X that results in the least number of disturbances.  
 [Answer](easy/p3.py)
+
+   6. Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have 
+     exactly one  solution, and you may not use the same element twice. You can return the answer in any order.
+     [Answer](easy/lc1.py)
 
 
       
