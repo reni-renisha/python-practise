@@ -9,5 +9,3 @@ for action in A:
         min_req = tank # Store the lowest tank level
 X = -min_req  # Initial oil needed 
 print(X)
-
-
