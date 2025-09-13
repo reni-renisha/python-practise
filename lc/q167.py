@@ -5,13 +5,13 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        left=0
-        right=len(numbers)-1
+        left=0#start pointer
+        right=len(number)-1#end pointer
         while left<right:
-            s=numbers[left]+numbers[right]
-            if s==target:
-                return left+1,right+1
-            if s>target:
+            currSum=numbers[left]+numbers[right]
+            if currSum>target:
                 right-=1
+            elif currSum<target:
+                left-=1
             else:
-                left+=1
+                return [left+1,right+1]#since index start at 1

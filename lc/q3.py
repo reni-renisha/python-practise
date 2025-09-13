@@ -5,15 +5,17 @@ class Solution(object):
         :rtype: int
         """
         left=0
-        uniq=set()
-        max_len=0
-        for right in range(len(s)):
-            while s[right] in uniq:
-                uniq.remove(s[left])
+        res=0
+        charSet=set()
+        for r in range(len(s)):
+            while s[r] in charSet:
+                charSet.remove(s[left])
                 left+=1
-            uniq.add(s[right])
-            if right-left+1>max_len:
-                max_len=right-left+1
-                start_index=left
-        return max_len
+            charSet.add(s[r])
+            res=max(res,r-left+1)
+        return res
+        
+                
+
+        
         
